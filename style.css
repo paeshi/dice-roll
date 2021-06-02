@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(23, 157, 103);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-text {
+  font-size: 4em;
+}
+.result {
+  font-size: 3em;
+  color: rgb(181, 36, 36);
+}
+.dice {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.dice-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dice-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-one,
+.p-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  width: 30%;
+  margin: 1em;
+}
+
+button {
+  margin: 2em;
+  width: 100px;
+  background-color: aliceblue;
+}
+button:hover {
+  cursor: pointer;
+}
